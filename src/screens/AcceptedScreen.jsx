@@ -1,4 +1,6 @@
 function AcceptedScreen() {
+  document.title = "I've got a valentine!";
+
   return (
     <div className="h-full flex flex-col items-center justify-center gap-6">
       <img src="/hug.gif" alt="" className="" />

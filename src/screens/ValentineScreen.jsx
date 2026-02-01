@@ -21,6 +21,9 @@ function ValentineScreen() {
   const [step, setStep] = useState(1);
   const navigate = useNavigate();
 
+  document.title =
+    step === 1 ? "Answer this question" : "Will you be my valentine?";
+
   const [buttonSizeReductionMultiplier, setButtonSizeReductionMultiplier] =
     useState(0);
   const noButtonRef = useRef(null);

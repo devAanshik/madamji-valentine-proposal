@@ -5,6 +5,8 @@ import Button from "../components/Button";
 import Overlay from "../components/Overlay.jsx";
 
 function ILoveYouScreen() {
+  document.title = "I Love You";
+
   const navigate = useNavigate();
   const { overlay, showOverlay, hideOverlay } = useOverlay();
 
