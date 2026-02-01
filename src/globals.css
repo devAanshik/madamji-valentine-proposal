@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Comfortaa", cursive;
+  @apply bg-fixed bg-no-repeat bg-linear-to-br from-pink-100
+      to-rose-50 text-rose-400 text-center overflow-hidden;
+}
